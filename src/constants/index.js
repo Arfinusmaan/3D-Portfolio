@@ -317,50 +317,50 @@ const projects = [
   live_link: "https://recipe-arfin.vercel.app",
 },
 
-// {
-//   name: "QR Code Generator",
-//   description:
-//     "Utility tool that allows users to generate customized QR codes from input links with adjustable size and instant download functionality.",
-//   tags: [
-//     {
-//       name: "react",
-//       color: "blue-text-gradient",
-//     },
-//     {
-//       name: "qr-code-styling",
-//       color: "green-text-gradient",
-//     },
-//     {
-//       name: "tailwind",
-//       color: "pink-text-gradient",
-//     },
-//   ],
-//   image:  qr,
-//   source_code_link: "https://github.com/Arfinusmaan/Qr-Code-Generator",
-//   live_link: "https://qrcode-arfin.vercel.app",
-// },
-
 {
-  name: "EpicDrop",
+  name: "QR Code Generator",
   description:
-    "E-commerce platform with user auth, product management, and payment gateways using Django backend and a traditional frontend stack.",
+    "Utility tool that allows users to generate customized QR codes from input links with adjustable size and instant download functionality.",
   tags: [
     {
-      name: "django",
+      name: "react",
       color: "blue-text-gradient",
     },
     {
-      name: "mysql",
+      name: "qr-code-styling",
       color: "green-text-gradient",
     },
     {
-      name: "javascript",
+      name: "tailwind",
       color: "pink-text-gradient",
     },
   ],
-  image: ecom,
-  source_code_link: "https://github.com/Arfinusmaan/Full-Stack-Ecom",
+  image:  qr,
+  source_code_link: "https://github.com/Arfinusmaan/Qr-Code-Generator",
+  live_link: "https://qrcode-arfin.vercel.app",
 },
+
+// {
+//   name: "EpicDrop",
+//   description:
+//     "E-commerce platform with user auth, product management, and payment gateways using Django backend and a traditional frontend stack.",
+//   tags: [
+//     {
+//       name: "django",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "mysql",
+//       color: "green-text-gradient",
+//     },
+//     {
+//       name: "javascript",
+//       color: "pink-text-gradient",
+//     },
+//   ],
+//   image: ecom,
+//   source_code_link: "https://github.com/Arfinusmaan/Full-Stack-Ecom",
+// },
 
 
 
