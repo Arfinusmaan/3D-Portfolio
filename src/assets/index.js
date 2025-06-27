@@ -1,40 +1,37 @@
-import logo from "./logo.svg";
-import fullstack from "./fullstack.png";
-import threed from "./threed.png";
-import react from "./react.png";
-import frontend from "./frontend.png";
-import github from "./github.png";
-import live from "./live.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+const logo = "/assets/logo.svg";
+const fullstack = "/assets/fullstack.png";
+const threed = "/assets/threed.png";
+const react = "/assets/react.png";
+const frontend = "/assets/frontend.png";
+const github = "/assets/github.png";
+const live = "/assets/live.png";
+const menu = "/assets/menu.svg";
+const close = "/assets/close.svg";
 
-import css from "./tech/css.png";
-import appwrite from "./tech/appwrite.svg";
-import Python from "./tech/Python.svg";
-import Django from "./tech/Django.svg";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mysql from "./tech/mysql.svg";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
-import gsap from "./tech/gsap.png";
+const css = "/assets/tech/css.png";
+const appwrite = "/assets/tech/appwrite.svg";
+const Python = "/assets/tech/Python.svg";
+const Django = "/assets/tech/Django.svg";
+const git = "/assets/tech/git.png";
+const html = "/assets/tech/html.png";
+const javascript = "/assets/tech/javascript.png";
+const mysql = "/assets/tech/mysql.svg";
+const reactjs = "/assets/tech/reactjs.png";
+const redux = "/assets/tech/redux.png";
+const tailwind = "/assets/tech/tailwind.png";
+const threejs = "/assets/tech/threejs.svg";
+const gsap = "/assets/tech/gsap.png";
 
-import inmakes from "./company/inmakes.png";
-import unified from "./company/unified.png";
+const inmakes = "/assets/company/inmakes.png";
+const unified = "/assets/company/unified.png";
 
-
-import nike from "./nike.png";
-import qr from "./qr.png";
-import moodflix from './moodflix.png'
-import lyriks from './lyriks.png'
-import expense from './expense.png'
-import recipe from './recipe.png'
-import ecom from './ecom.png'
-
-
+const nike = "/assets/nike.png";
+const qr = "/assets/qr.png";
+const moodflix = "/assets/moodflix.png";
+const lyriks = "/assets/lyriks.png";
+const expense = "/assets/expense.png";
+const recipe = "/assets/recipe.png";
+const ecom = "/assets/ecom.png";
 
 export {
   logo,
@@ -63,9 +60,9 @@ export {
   unified,
   nike,
   qr,
-  expense,
-  recipe,
   moodflix,
   lyriks,
+  expense,
+  recipe,
   ecom,
 };
