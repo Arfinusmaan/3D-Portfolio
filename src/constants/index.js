@@ -317,28 +317,28 @@ const projects = [
   live_link: "https://recipe-arfin.vercel.app",
 },
 
-{
-  name: "QR Code Generator",
-  description:
-    "Utility tool that allows users to generate customized QR codes from input links with adjustable size and instant download functionality.",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "qr-code-styling",
-      color: "green-text-gradient",
-    },
-    {
-      name: "tailwind",
-      color: "pink-text-gradient",
-    },
-  ],
-  image:  qr,
-  source_code_link: "https://github.com/Arfinusmaan/Qr-Code-Generator",
-  live_link: "https://qrcode-arfin.vercel.app",
-},
+// {
+//   name: "QR Code Generator",
+//   description:
+//     "Utility tool that allows users to generate customized QR codes from input links with adjustable size and instant download functionality.",
+//   tags: [
+//     {
+//       name: "react",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "qr-code-styling",
+//       color: "green-text-gradient",
+//     },
+//     {
+//       name: "tailwind",
+//       color: "pink-text-gradient",
+//     },
+//   ],
+//   image:  qr,
+//   source_code_link: "https://github.com/Arfinusmaan/Qr-Code-Generator",
+//   live_link: "https://qrcode-arfin.vercel.app",
+// },
 
 // {
 //   name: "EpicDrop",
