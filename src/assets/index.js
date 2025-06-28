@@ -1,68 +1,39 @@
-import logo from "./logo.svg";
-import fullstack from "./fullstack.png";
-import threed from "./threed.png";
-import react from "./react.png";
-import frontend from "./frontend.png";
-import github from "./github.png";
-import live from "./live.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+// src/assets/index.js
 
-import css from "./tech/css.png";
-import appwrite from "./tech/appwrite.svg";
-import Python from "./tech/Python.svg";
-import Django from "./tech/Django.svg";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mysql from "./tech/mysql.svg";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
-import gsap from "./tech/gsap.png";
+export const Django = "/logo/tech/Django.svg";
+export const Python = "/logo/tech/Python.svg";
+export const html = "/logo/tech/html.png";
+export const css = "/logo/tech/css.png";
+export const javascript = "/logo/tech/javascript.png";
+export const mysql = "/logo/tech/mysql.svg";
+export const git = "/logo/tech/git.png";
+export const reactjs = "/logo/tech/reactjs.png";
+export const redux = "/logo/tech/redux.png";
+export const tailwind = "/logo/tech/tailwind.png";
+export const threejs = "/logo/tech/threejs.svg";
+export const gsap = "/logo/tech/gsap.png";
+export const appwrite = "/logo/tech/appwrite.svg";
 
-import inmakes from "./company/inmakes.png";
-import unified from "./company/unified.png";
+// General
+export const logo = "/logo/logo.svg";
+export const fullstack = "/logo/fullstack.png";
+export const threed = "/logo/threed.png";
+export const react = "/logo/react.png";
+export const frontend = "/logo/frontend.png";
+export const github = "/logo/github.png";
+export const live = "/logo/live.png";
+export const menu = "/logo/menu.svg";
+export const close = "/logo/close.svg";
 
-import nike from "./nike.png";
-import qr from "./qr.png";
-import moodflix from "./moodflix.png";
-import lyriks from "./lyriks.png";
-import expense from "./expense.png";
-import recipe from "./recipe.png";
-import ecom from "./ecom.png";
+// Company
+export const inmakes = "/logo/company/inmakes.png";
+export const unified = "/logo/company/unified.png";
 
-export {
-  logo,
-  fullstack,
-  threed,
-  react,
-  frontend,
-  github,
-  live,
-  menu,
-  close,
-  css,
-  Python,
-  Django,
-  appwrite,
-  mysql,
-  git,
-  gsap,
-  html,
-  javascript,
-  reactjs,
-  redux,
-  tailwind,
-  threejs,
-  inmakes,
-  unified,
-  nike,
-  qr,
-  expense,
-  recipe,
-  moodflix,
-  lyriks,
-  ecom,
-};
+// Projects
+export const nike = "/logo/nike.png";
+export const qr = "/logo/qr.png";
+export const moodflix = "/logo/moodflix.png";
+export const lyriks = "/logo/lyriks.png";
+export const expense = "/logo/expense.png";
+export const recipe = "/logo/recipe.png";
+export const ecom = "/logo/ecom.png";

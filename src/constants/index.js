@@ -17,7 +17,6 @@ import {
   mysql,
   inmakes,
   unified,
-  // carrent,
   nike,
   moodflix,
   lyriks,
@@ -27,6 +26,7 @@ import {
   ecom,
   threejs,
 } from "../assets";
+
 
 export const navLinks = [
   {
