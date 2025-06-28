@@ -10,7 +10,7 @@ const Earth = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const earth = useGLTF(
-    " /models/planet/scene.gltf"
+     isMobile ? "/mobile/scene_low_planet.glb" : "/models/planet/scene.gltf"
   );
 
   return (
