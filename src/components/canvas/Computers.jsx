@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF(
-   isMobile ? "/models/mobile/scene_low.glb" 
+   isMobile ? "/models/mobile/scene_low.gltf" 
    : "/models/desktop_pc/scene.gltf"
   );
 
