@@ -1,11 +1,18 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
+import { useMediaQuery } from "react-responsive";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("/models/planet/scene.gltf");
+
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
+  const earth = useGLTF(
+     isMobile ? "/models/mobile/scene_low_planet.glb" 
+     : "/models/planet/scene.gltf"
+  );
 
   return (
     <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
